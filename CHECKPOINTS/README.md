@@ -28,12 +28,14 @@
         - messages to notify \(1 table per user\)
         - time to notify message
 
-    - Create a backend to export specific data from the database into a text file
+    - Create a backend to export specific data from the database into a text file and run the Python script to send message
         - Language: Java
         - data to export:
             - message
             - time
             - LINE USERID
+        - Run the Python script to send message
+        - remove the text file after sending the message to the user \(for safety measures\)
 
     - Create a backend to link the database and the website to enable the user to erase and add data
         - Language: Java
@@ -41,3 +43,4 @@
 
     - Create a Linebot to notify messages at a certain time to a specific user
         - Language: Python
+        - export data from text file
