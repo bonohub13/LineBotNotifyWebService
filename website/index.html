@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Line bot notification service Login</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="header">
+        <header>
+          <blockquote>
+            <h1 id="linebot-notify-web-serviceへようこそ \(・З・)/">Linebot Notify Web Serviceへようこそ! \(ôς_ ô)/</h1>
+          </blockquote>
+        </header>
+      </div>
+      <div class="container">
+        <div id="main">
+          <main>
+            <blockquote>
+            <h2 id="ログイン画面">ログイン画面</h1>
+              <form action="127.0.0.1/login_check.txt">
+                <p>ユーザ名<br/>
+                  <input type="text" name="username" />
+                </p>
+                <ul>
+                <li class="notice">半角英数</li>
+                <li class="notice">8文字以上かつ12文字以下</li>
+                </ul>
+                <p>パスワード<br/>
+                  <input type="password" name="password" />
+                </p>
+                <ul>
+                <li class="notice">半角英数</li>
+                <li class="notice">8文字以上かつ30文字以下 (@などの特殊記号可ただし*は不可)</li>
+                </ul>
+                <p><input type="submit" value="送信" /></p>
+              </form>
+              <h3 id="まだ会員登録がまだの方は">まだ会員登録がまだの方は…</h3>
+                <p><a href="./register_page/index.html">新規登録ページ</a></p>
+            
+            <h2>Linebot Notify Web Serviceとお友達になろう！</h2>
+              <p>
+                <img src="images/linebot_qrcode.png" alt="LINEのQRコード" />
+              </p>
+            </blockquote>
+          </main>
+        </div>
+      </div><!-- container -->
+      <div id="footer">
+        <footer>
+          <blockquote>
+            <h2 id="Githubにソースコード公開中">Githubにソースコード公開中!!!</h2>
+            <p><a href="https://github.com/bonohub13/LineBotNotifyWebService.git">ここ!</a></p>
+          </blockquote>
+        </footer>
+      </div>
+    </div> <!-- wrapper -->
+  </body>
+</html>
