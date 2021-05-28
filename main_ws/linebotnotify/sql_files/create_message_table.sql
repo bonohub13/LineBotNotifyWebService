@@ -5,9 +5,9 @@ CONNECT linebot_user_testing/testing;
 -- remind_time can store time as well (only on OracleDB)
 
 CREATE TABLE messages (
-    message_id      NUMBER(10)          PRIMARY KEY,
+    message_id      NUMBER(5)          PRIMARY KEY,
     message_content VARCHAR2(1000 CHAR) NOT NULL,
-    remind_time     DATE
+    remind_time     DATE,
     user_id         NUMBER(5)           NOT NULL REFERENCES linebot_user(user_id)
 );
 

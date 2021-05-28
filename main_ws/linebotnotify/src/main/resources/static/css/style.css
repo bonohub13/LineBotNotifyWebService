@@ -1,0 +1,42 @@
+/* format for error messages */
+p.error {
+  color: red
+}
+
+/* format for header */
+div#header {
+  background-color: lightgreen;
+  border-width: 10px;
+  border-style: solid;
+  border-color: limegreen;
+}
+
+/* format for footer */
+div#footer {
+  background-color: lightskyblue;
+  border-width: 10px;
+  border-style: solid;
+  border-color: darkcyan;
+}
+
+/* format for main */
+div#main {
+  margin-top: 5px;
+  background-color: lightgreen;
+  border-width: 10px;
+  border-style: solid;
+  border-color: darkcyan;
+}
+
+/* placeholder for format for body */
+body {
+  background-color: darkcyan;
+  border-style: ridge;
+  border-color: #32302f;
+  border-width: 5px;
+}
+
+/* format for notice */
+.notice {
+  font-size: small;
+}
