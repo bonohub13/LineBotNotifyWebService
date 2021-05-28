@@ -1,4 +1,4 @@
-CONNECT linebot_user/<password>;
+CONNECT linebot_user_testing/testing;
 
 -- create table to identify gender
 

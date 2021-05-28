@@ -1,4 +1,4 @@
-CONNECT linebot_user/<password>;
+CONNECT linebot_user_testing/testing;
 
 -- Create table messages to store messages to notify the user with
 -- message_id is 34bit integer
